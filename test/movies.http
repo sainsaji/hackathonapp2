@@ -1,0 +1,13 @@
+### GET request to example server
+GET {{host}}:{{port}}/movies
+
+<> 2024-11-15T163034.200.json
+
+###
+POST {{host}}:{{port}}/movies
+Content-Type: application/json
+
+{
+  "id": 999,
+  "title": "content"
+}
